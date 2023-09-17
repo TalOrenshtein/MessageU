@@ -14,9 +14,6 @@
 #define userReqPullMsgs 4
 #define userExit 0
 
-
-#define test 8
-
 int main() {
     std::string menuUnReg= "1) Register\n2) Request for clients list\n3) Request for public key\n4) Request for waiting messages\n5) Send a text message\n51) Send a request for symmetric key\n52) Send your symmetric key\n0) Exit client\n? ";
     std::string menuReg= "2) Request for clients list\n3) Request for public key\n4) Request for waiting messages\n5) Send a text message\n51) Send a request for symmetric key\n52) Send your symmetric key\n0) Exit client\n? ";
